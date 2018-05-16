@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author marco
  */
       public class Comandos{ 
-     
+   //  xdxd  
     public static void ejecutar(String cmd) { 
       Scanner sc = new Scanner(System.in);
         int opcion = sc.nextInt();
@@ -33,8 +33,10 @@ import java.util.Scanner;
         System.out.println("1. apagar");
         System.out.println("2. no apagar");
         System.out.println("3. salir");
-      
-        ejecutar("shutdown -a"); 
+      // usamos el comando "shutdwon -s como argumento para cmd"
+          // se cierra la sesion de windows y en un minuto de apaga la pc
+          // para cancelar el apagado cambiar la ultima linea por: ejecutar("shutdown -a").
+        ejecutar("shutdown -s"); 
     
     } 
 } 
